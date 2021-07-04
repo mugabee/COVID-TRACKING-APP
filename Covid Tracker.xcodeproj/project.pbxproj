@@ -13,6 +13,8 @@
 		FAF8D4A22691C7030089C3B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF8D4A02691C7030089C3B6 /* Main.storyboard */; };
 		FAF8D4A42691C7070089C3B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF8D4A32691C7070089C3B6 /* Assets.xcassets */; };
 		FAF8D4A72691C7070089C3B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF8D4A52691C7070089C3B6 /* LaunchScreen.storyboard */; };
+		FAF8D4B02691CB9D0089C3B6 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF8D4AF2691CB9D0089C3B6 /* FilterViewController.swift */; };
+		FAF8D4B42691CE100089C3B6 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF8D4B32691CE100089C3B6 /* APICaller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FAF8D4A32691C7070089C3B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAF8D4A62691C7070089C3B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAF8D4A82691C7070089C3B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF8D4AF2691CB9D0089C3B6 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		FAF8D4B32691CE100089C3B6 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				FAF8D49A2691C7030089C3B6 /* AppDelegate.swift */,
 				FAF8D49C2691C7030089C3B6 /* SceneDelegate.swift */,
+				FAF8D4AF2691CB9D0089C3B6 /* FilterViewController.swift */,
 				FAF8D49E2691C7030089C3B6 /* ViewController.swift */,
 				FAF8D4A02691C7030089C3B6 /* Main.storyboard */,
 				FAF8D4A32691C7070089C3B6 /* Assets.xcassets */,
 				FAF8D4A52691C7070089C3B6 /* LaunchScreen.storyboard */,
 				FAF8D4A82691C7070089C3B6 /* Info.plist */,
+				FAF8D4B32691CE100089C3B6 /* APICaller.swift */,
 			);
 			path = "Covid Tracker";
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				FAF8D49F2691C7030089C3B6 /* ViewController.swift in Sources */,
 				FAF8D49B2691C7030089C3B6 /* AppDelegate.swift in Sources */,
+				FAF8D4B02691CB9D0089C3B6 /* FilterViewController.swift in Sources */,
+				FAF8D4B42691CE100089C3B6 /* APICaller.swift in Sources */,
 				FAF8D49D2691C7030089C3B6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
